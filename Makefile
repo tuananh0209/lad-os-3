@@ -3,4 +3,4 @@ all : ex1.o
 main.0 : ex1.c
 	gcc -c ex1.c
 clean: 
-	rm -f main *.o *.chg
+	rm -f ex1 ex2 *.o *.chg
