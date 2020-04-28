@@ -7,9 +7,9 @@ int main()
 {
    
     pid_t pr1 = fork();
-    wait(NULL);
+   // wait(NULL);
     pid_t pr2 = fork();
-    wait(NULL);
+   // wait(NULL);
     pid_t pr3 = fork();
     wait(NULL);
     printf("[son] pid %d from [parent] pid %d\n", getpid(), getppid());
